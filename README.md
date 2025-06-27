@@ -17,3 +17,6 @@ All of them use the `func_xor.cpp` script for **xor encryption** of the function
 1. For both `func_xor.cpp` and `sc_xor.cpp` use `g++ func_xor.cpp -o func_xor` if compiling on **Linux**
 
 2. For the others, you **Console App C++** in *Visutal Studio*. Use the `Release x64` option when building the binary.
+
+## Check Imports
+1. You can check imports using `https://github.com/Delphier/dumpbin` with `.\dumpbin.exe /imports file.exe`
