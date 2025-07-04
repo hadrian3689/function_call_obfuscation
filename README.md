@@ -20,3 +20,6 @@ All of them use the `func_xor.cpp` script for **xor encryption** of the function
 
 ## Check Imports
 1. You can check imports using `https://github.com/Delphier/dumpbin` with `.\dumpbin.exe /imports file.exe`
+
+## Disclaimer
+All the code provided on this repository is for educational/research purposes only. Any actions and/or activities related to the material contained within this repository is solely your responsibility. The misuse of the code in this repository can result in criminal charges brought against the persons in question. Author will not be held responsible in the event any criminal charges be brought against any individuals misusing the code in this repository to break the law.
